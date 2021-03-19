@@ -1,0 +1,21 @@
+name: transformer_CIFAR10
+log_path: ../logs
+template: pptx_exporter/template.pptx
+log_file: parameters.csv
+acc_img_name: accuracy.png
+loss_img_name: loss.png
+title_font_size: 28
+txt_box:
+  pos_top: 3.5
+  pos_left: 3.
+  width: 15
+  height: 10
+  font: Verdana
+  font_size: 18
+img:
+  base_pos_top: 3800000
+  base_pos_left: 8000000
+  width: 4000000
+  height: auto
+  add_pos_top: -2800000
+  add_pos_left: 0
